@@ -4,7 +4,7 @@ import data from "../data";
 import { useDispatch } from "react-redux";
 
 function ProductPage() {
-  const [products, setProducts] = useState(data);
+  const [products] = useState(data);
 
   const dispatch = useDispatch();
 
